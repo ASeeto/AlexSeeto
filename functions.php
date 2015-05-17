@@ -21,7 +21,7 @@ $regex = '/([a-z0-9_.-]+)'. # name
 '([a-z]+){2,10}/i'; # domain extension 
 
 if($email == '') { 
-	return false;
+    return false;
 }
 else {
 $eregi = preg_replace($regex, '', $email);

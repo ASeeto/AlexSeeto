@@ -19,46 +19,46 @@
 <body>
 
 <div id="header">
-	<div class="valignwrap">
-		<div class="valign">
-			<div class="valigncontent">
-				<h1 class="title">Alexander Seeto</h1>
-				<p class="subtitle">Web Developer, Software Engineer, Graphic Designer</p>
-				<hr></hr>
-				<p>
-				<a href="https://www.linkedin.com/in/alexanderseeto" class="top" target="_blank"><img src="img/linkedin.png" class="icon"></a>
-				<a href="https://github.com/ASeeto" class="top" target="_blank"><img src="img/git.png" class="icon"></a>
-				<a href="https://www.facebook.com/seeto.alex" class="top" target="_blank"><img src="img/facebook.png" class="icon"></a>
-				<a href="https://twitter.com/alexseeto" class="top" target="_blank"><img src="img/twitter.png" class="icon"></a>
-				<a href="http://www.pinterest.com/seetoalexander" class="top" target="_blank"><img src="img/pinterest.png" class="icon"></a>
-				</p>
-				<hr></hr>
-			</div>
-		</div>
-	</div>
+    <div class="valignwrap">
+        <div class="valign">
+            <div class="valigncontent">
+                <h1 class="title">Alexander Seeto</h1>
+                <p class="subtitle">Web Developer, Software Engineer, Graphic Designer</p>
+                <hr></hr>
+                <p>
+                <a href="https://www.linkedin.com/in/alexanderseeto" class="top" target="_blank"><img src="img/linkedin.png" class="icon"></a>
+                <a href="https://github.com/ASeeto" class="top" target="_blank"><img src="img/git.png" class="icon"></a>
+                <a href="https://www.facebook.com/seeto.alex" class="top" target="_blank"><img src="img/facebook.png" class="icon"></a>
+                <a href="https://twitter.com/alexseeto" class="top" target="_blank"><img src="img/twitter.png" class="icon"></a>
+                <a href="http://www.pinterest.com/seetoalexander" class="top" target="_blank"><img src="img/pinterest.png" class="icon"></a>
+                </p>
+                <hr></hr>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="page">
 <p><a href="#foot" class="bottom"><img src="img/bottom.png"></a><a href="#header" class="top"><img src="img/top.png"></a></p>
 </div>
 <div id="nav" class="shadow-bottom">
-	<ul>
-	<li>
-		<a href="#header"><p>home</p></a>
-	</li>
-	<li>
-		<a href="#about"><p>about</p></a>
-	</li>
-	<li>
-		<a href="#experience"><p>experience</p></a>
-	</li>
-	<li>
-		<a href="#portfolio"><p>portfolio</p></a>
-	</li>
-	<li>
-		<a href="#contact"><p>contact</p></a>
-	</li>
-	</ul>
+    <ul>
+    <li>
+        <a href="#header"><p>home</p></a>
+    </li>
+    <li>
+        <a href="#about"><p>about</p></a>
+    </li>
+    <li>
+        <a href="#experience"><p>experience</p></a>
+    </li>
+    <li>
+        <a href="#portfolio"><p>portfolio</p></a>
+    </li>
+    <li>
+        <a href="#contact"><p>contact</p></a>
+    </li>
+    </ul>
 </div>
 
 <section id="about">
@@ -88,15 +88,15 @@
 </div>
 
 <div id="footer">
-				<br><br><br><br>
-				<div id="foot">
-				<a href="https://www.linkedin.com/in/alexanderseeto" class="top" target="_blank"><img src="img/linkedin.png" class="icon"></a>
-				<a href="https://github.com/ASeeto" class="top" target="_blank"><img src="img/git.png" class="icon"></a>
-				<a href="https://www.facebook.com/seeto.alex" class="top" target="_blank"><img src="img/facebook.png" class="icon"></a>
-				<a href="https://twitter.com/alexseeto" class="top" target="_blank"><img src="img/twitter.png" class="icon"></a>
-				<a href="http://www.pinterest.com/seetoalexander" class="top" target="_blank"><img src="img/pinterest.png" class="icon"></a>
-				</p>
-				</div>
+                <br><br><br><br>
+                <div id="foot">
+                <a href="https://www.linkedin.com/in/alexanderseeto" class="top" target="_blank"><img src="img/linkedin.png" class="icon"></a>
+                <a href="https://github.com/ASeeto" class="top" target="_blank"><img src="img/git.png" class="icon"></a>
+                <a href="https://www.facebook.com/seeto.alex" class="top" target="_blank"><img src="img/facebook.png" class="icon"></a>
+                <a href="https://twitter.com/alexseeto" class="top" target="_blank"><img src="img/twitter.png" class="icon"></a>
+                <a href="http://www.pinterest.com/seetoalexander" class="top" target="_blank"><img src="img/pinterest.png" class="icon"></a>
+                </p>
+                </div>
 </div>
 
 </body>
