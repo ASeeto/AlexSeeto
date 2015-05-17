@@ -8,58 +8,58 @@
 //      @link:      refers to Link for specific portfolio item
 
 var portfolioInformation = [
-    { id:               'pf_item1',
+    {   id:         'pf_item1',
         title:      'Jimmy Ouyang',
         sdesc:      'Event Poster',
         desc:       '<p><strong>Tools:</strong><br> Adobe Photoshop</p>'+
-                            '<p><strong>Description:</strong><br> Event poster created for Asian Student Union during my term as Webmaster. <a href="http://www.jimmycomedy.com/" target="_blank">Jimmy Ouyang</a> was invited as a special guest to speak at Northeastern University.</p>'+
-                            '<p><strong>Lessons:</strong><br> Fonts, Filters</p>',
-        git:            'https://github.com/ASeeto/Tetris',     
+                        '<p><strong>Description:</strong><br> Event poster created for Asian Student Union during my term as Webmaster. <a href="http://www.jimmycomedy.com/" target="_blank">Jimmy Ouyang</a> was invited as a special guest to speak at Northeastern University.</p>'+
+                        '<p><strong>Lessons:</strong><br> Fonts, Filters</p>',
+        git:        'https://github.com/ASeeto/Tetris',     
         link:       'https://myneufolio.digication.com/readfile.digi?localfile=M32c9e8f4b354d8177d6ce9496e106315&filename=Tetris.rkt'
     },
-    { id:               'pf_item2',
+    {   id:         'pf_item2',
         title:      'A Night in Asia',
         sdesc:      'Event Poster',
         desc:       '<p><strong>Tools:</strong><br> Adobe Photoshop</p>'+
-                            '<p><strong>Description:</strong><br> Event poster created for Asian Student Union during my term as Webmaster. A Night in Asia is a collaborative annual event between all organizations of Northeastern University\'s Pan Asian American Council to promote and celebrate Asian culture.</p>'+
-                            '<p><strong>Lessons:</strong><br> Gradient</p>',
-        git:            'https://github.com/ASeeto/Tetris',     
+                        '<p><strong>Description:</strong><br> Event poster created for Asian Student Union during my term as Webmaster. A Night in Asia is a collaborative annual event between all organizations of Northeastern University\'s Pan Asian American Council to promote and celebrate Asian culture.</p>'+
+                        '<p><strong>Lessons:</strong><br> Gradient</p>',
+        git:        'https://github.com/ASeeto/Tetris',     
         link:       'https://myneufolio.digication.com/readfile.digi?localfile=M32c9e8f4b354d8177d6ce9496e106315&filename=Tetris.rkt'
     },
-    { id:               'pf_item3',
+    {   id:         'pf_item3',
         title:      'Asian Student Union',
         sdesc:      'Recruitment Flyer',
         desc:       '<p><strong>Tools:</strong><br> Adobe Photoshop</p>'+
-                            '<p><strong>Description:</strong><br> Recruitment flyer created for Asian Student Union during my term as Webmaster.'+
-                            '<p><strong>Lessons:</strong><br> Fonts, Rotation, Filters</p>',
-        git:            'https://github.com/ASeeto/Tetris',     
+                        '<p><strong>Description:</strong><br> Recruitment flyer created for Asian Student Union during my term as Webmaster.'+
+                        '<p><strong>Lessons:</strong><br> Fonts, Rotation, Filters</p>',
+        git:        'https://github.com/ASeeto/Tetris',     
         link:       'https://myneufolio.digication.com/readfile.digi?localfile=M32c9e8f4b354d8177d6ce9496e106315&filename=Tetris.rkt'
     },
-    { id:               'pf_item4',
+    {   id:         'pf_item4',
         title:      'Jubilee Project',
         sdesc:      'Event Poster',
         desc:       '<p><strong>Tools:</strong><br> Adobe Photoshop</p>'+
-                            '<p><strong>Description:</strong><br> Event poster created for Asian Student Union during my term as Webmaster. <a href="http://jubileeproject.org/" target="_blank">Jubillee Project</a> was invited as a special guest to speak at Northeastern University.</p>'+
-                            '<p><strong>Lessons:</strong><br> Image Layering</p>',
-        git:            'https://github.com/ASeeto/Tetris',     
+                        '<p><strong>Description:</strong><br> Event poster created for Asian Student Union during my term as Webmaster. <a href="http://jubileeproject.org/" target="_blank">Jubillee Project</a> was invited as a special guest to speak at Northeastern University.</p>'+
+                        '<p><strong>Lessons:</strong><br> Image Layering</p>',
+        git:        'https://github.com/ASeeto/Tetris',     
         link:       'https://myneufolio.digication.com/readfile.digi?localfile=M32c9e8f4b354d8177d6ce9496e106315&filename=Tetris.rkt'
     },
-    { id:               'pf_item5',
+    {   id:         'pf_item5',
         title:      'Lambda Phi Epsilon',
         sdesc:      'Recruitment Flyer',
         desc:       '<p><strong>Tools:</strong><br> Adobe Photoshop</p>'+
-                            '<p><strong>Description:</strong><br> Recruitment flyer created for Lambda Phi Epsilon during my term as President.</p>'+
-                            '<p><strong>Lessons:</strong><br> Transparency w/ Gradient, Non-Centered Design</p>',
-        git:            'https://github.com/ASeeto/Tetris',     
+                        '<p><strong>Description:</strong><br> Recruitment flyer created for Lambda Phi Epsilon during my term as President.</p>'+
+                        '<p><strong>Lessons:</strong><br> Transparency w/ Gradient, Non-Centered Design</p>',
+        git:        'https://github.com/ASeeto/Tetris',     
         link:       'https://myneufolio.digication.com/readfile.digi?localfile=M32c9e8f4b354d8177d6ce9496e106315&filename=Tetris.rkt'
     },
-    { id:               'pf_item6',
+    {   id:         'pf_item6',
         title:      'King of the Court',
         sdesc:      'Event Banner',
         desc:       '<p><strong>Tools:</strong><br> Adobe Photoshop</p>'+
-                            '<p><strong>Description:</strong><br> Recruitment Flyer created for Lambda Phi Epsilon during my term as President.</p>'+
-                            '<p><strong>Lessons:</strong><br> Image Distortion</p>',
-        git:            'https://github.com/ASeeto/Tetris',     
+                        '<p><strong>Description:</strong><br> Recruitment Flyer created for Lambda Phi Epsilon during my term as President.</p>'+
+                        '<p><strong>Lessons:</strong><br> Image Distortion</p>',
+        git:        'https://github.com/ASeeto/Tetris',     
         link:       'https://myneufolio.digication.com/readfile.digi?localfile=M32c9e8f4b354d8177d6ce9496e106315&filename=Tetris.rkt'
     },
     // { id:                'pf_item1',
@@ -76,31 +76,40 @@ var portfolioInformation = [
         // git:             'https://github.com/ASeeto/Asteroids',  
         // link:        'https://myneufolio.digication.com/readfile.digi?localfile=Mf929506374335877debd83296f280930&filename=Asteroids.zip'
     // },
-    { id:               'pf_item7',
+    {   id:         'pf_item7',
         title:      'Reservation System',
         sdesc:      'Website',
         desc:       '<p><strong>Tools:</strong><br> HTML, CSS, mySQL, PHP</p>'+
-                            '<p><strong>Description:</strong><br> <a href="http://www.alexseeto.com/reservationproject/index.php" target="_blank">Reservation System</a> is a project I completed for "CS 4550: Web Development" taught by Professor Harriet Fell. The purpose of this project was to gain a better understanding of managing a database with use of mySQL and PHP. My site was specifically designed to imitate a reservation system for Northeastern University Snell Library classrooms and InfoCommon equipment rentals. These items act as resources to assist students and faculty in their learning.</p>',
-        git:            'https://github.com/ASeeto/Reservation',    
-        link:           'n/a' 
+                        '<p><strong>Description:</strong><br> <a href="http://www.alexseeto.com/reservationproject/index.php" target="_blank">Reservation System</a> is a project I completed for "CS 4550: Web Development" taught by Professor Harriet Fell. The purpose of this project was to gain a better understanding of managing a database with use of mySQL and PHP. My site was specifically designed to imitate a reservation system for Northeastern University Snell Library classrooms and InfoCommon equipment rentals. These items act as resources to assist students and faculty in their learning.</p>',
+        git:        'https://github.com/ASeeto/Reservation',    
+        link:       'n/a' 
     },
-    { id:               'pf_item8',
+    {   id:         'pf_item8',
         title:      'Lambda Phi Epsilon',
         sdesc:      'Website',
         desc:       '<p><strong>Tools:</strong><br> HTML, CSS, Javascript</p>'+
-                            '<p><strong>Description:</strong><br> Website I created for Northeastern University Lambda Phi Epsilon during my term as President. The layout has been revamped!</p>'+
-                            '<p><strong>Lessons:</strong><br> Dynamic HTML, jQuery, Tumblr API</p>',
-        git:            'https://github.com/ASeeto/Reservation',    
-        link:           'n/a' 
+                        '<p><strong>Description:</strong><br> Website I created for Northeastern University Lambda Phi Epsilon during my term as President. The layout has been revamped!</p>'+
+                        '<p><strong>Lessons:</strong><br> Dynamic HTML, jQuery, Tumblr API</p>',
+        git:        'https://github.com/ASeeto/Reservation',    
+        link:       'n/a' 
     },
-    { id:               'pf_item9',
+    {   id:         'pf_item9',
         title:      'Lambda Phi Epsilon',
         sdesc:      'Website',
         desc:       '<p><strong>Tools:</strong><br> HTML, CSS, Javascript</p>'+
-                            '<p><strong>Description:</strong><br> <a href="http://www.northeastern.edu/lambdaphiepsilon" target="_blank">Website</a> I created for Northeastern University Lambda Phi Epsilon during my term as President.</p>'+
-                            '<p><strong>Lessons:</strong><br> Flat Design</p>',
-        git:            'https://github.com/ASeeto/Reservation',    
-        link:           'n/a' 
+                        '<p><strong>Description:</strong><br> <a href="http://www.northeastern.edu/lambdaphiepsilon" target="_blank">Website</a> I created for Northeastern University Lambda Phi Epsilon during my term as President.</p>'+
+                        '<p><strong>Lessons:</strong><br> Flat Design</p>',
+        git:        'https://github.com/ASeeto/Reservation',    
+        link:       'n/a' 
+    },
+    {   id:         'pf_item10',
+        title:      'Flock',
+        sdesc:      'Website',
+        desc:       '<p><strong>Tools:</strong><br> HTML, CSS, Javascript</p>'+
+                        '<p><strong>Description:</strong><br> <a href="http://www.northeastern.edu/flock" target="_blank">Team Project</a> I created for CS 4500: Software Development at Northeastern University.</p>'+
+                        '<p><strong>Lessons:</strong><br> AngularJS, SASS, Git</p>',
+        git:        'https://github.com/zachbachiri/Flock',    
+        link:       'n/a' 
     },
     // { id:                'pf_item4',
         // title:       'Northeastern Social',
