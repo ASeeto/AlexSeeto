@@ -36,9 +36,9 @@
                         <p><b>Tools: </b>{$row['tools']}</p>
                         <p><b>Description: </b>{$row['description']}</p>";
                         if("{$row['link']}")
-                        	echo "<p><b>Link: </b><a href={$row['link']}>{$row['link']}</a></p>";
+                        	echo "<p><b>Link: </b><a href={$row['link']} target=\"_blank\">{$row['link']}</a></p>";
                         if("{$row['git']}")
-                        	echo "<p><b>Source Code: </b><a href={$row['git']}>{$row['git']}</a></p>";
+                        	echo "<p><b>Source Code: </b><a href={$row['git']} target=\"_blank\">{$row['git']}</a></p>";
                 echo "</div>
                        	</div>
                         </div>";
