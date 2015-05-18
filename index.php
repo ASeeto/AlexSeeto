@@ -12,7 +12,6 @@
 <link href="css/contact.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/scroll.js"></script>
-<script src="js/info_portfolio.js"></script>
 <script src="js/init_experience.js"></script>
 </head>
 
@@ -66,7 +65,6 @@
 <?php require 'about.php'; ?>
 </div>
 </section>
-<!--<div id="neu" class="banner"></div>-->
 
 <section id="experience">
 <div id="container">
@@ -88,15 +86,15 @@
 </div>
 
 <div id="footer">
-                <br><br><br><br>
-                <div id="foot">
-                <a href="https://www.linkedin.com/in/alexanderseeto" class="top" target="_blank"><img src="img/linkedin.png" class="icon"></a>
-                <a href="https://github.com/ASeeto" class="top" target="_blank"><img src="img/git.png" class="icon"></a>
-                <a href="https://www.facebook.com/seeto.alex" class="top" target="_blank"><img src="img/facebook.png" class="icon"></a>
-                <a href="https://twitter.com/alexseeto" class="top" target="_blank"><img src="img/twitter.png" class="icon"></a>
-                <a href="http://www.pinterest.com/seetoalexander" class="top" target="_blank"><img src="img/pinterest.png" class="icon"></a>
-                </p>
-                </div>
+    <br><br><br><br>
+    <div id="foot">
+    <a href="https://www.linkedin.com/in/alexanderseeto" class="top" target="_blank"><img src="img/linkedin.png" class="icon"></a>
+    <a href="https://github.com/ASeeto" class="top" target="_blank"><img src="img/git.png" class="icon"></a>
+    <a href="https://www.facebook.com/seeto.alex" class="top" target="_blank"><img src="img/facebook.png" class="icon"></a>
+    <a href="https://twitter.com/alexseeto" class="top" target="_blank"><img src="img/twitter.png" class="icon"></a>
+    <a href="http://www.pinterest.com/seetoalexander" class="top" target="_blank"><img src="img/pinterest.png" class="icon"></a>
+    </p>
+    </div>
 </div>
 
 </body>
