@@ -8,7 +8,7 @@
     <div class="ab_item">
         <img src="img/icons_ab2.png">
         <h2>school</h2>
-        <p>I attend Northeastern University as an undergraduate student pursuing a BS in Computer Science and Business.</p>
+        <p>Recent graduate from Northeastern University with a Bachelor of Science in Computer Science &amp; Business.</p>
     </div>
     <div class="ab_item">
         <img src="img/icons_ab3.png">

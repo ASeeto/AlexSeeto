@@ -45,7 +45,7 @@
         <div class="emp">
             <img src="img/icons_emp3.png">
             <h2>Novartis</h2>
-            <p class="subtitle">Bioinformatics Engineer</p>
+            <p class="subtitle">Full Stack Engineer</p>
         </div>
         </a>
     </div>
