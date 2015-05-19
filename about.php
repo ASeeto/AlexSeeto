@@ -21,22 +21,3 @@
         <p>I have an insatiable desire to learn which pairs well with the ever-expanding nature of my discipline.</p>
     </div>
 </div>
-
-
-
-
-<!--
-<h1>Author's Note</h1>
-<p>Hi, I'm Alexander Seeto. I attend Northeastern University as a full-time undergraduate student pursuing a BS in Computer Science and Business. I have a passion for discovering new ways to effectively organize, display, and communicate information. Development, Database Administration, Project Management, Software Architecture. </p>
-
-<hr class="ab"></hr>
-
-<h1>Author's Note</h1>
-<p>
-        Hi, I'm Alexander Seeto.
-        I attend Northeastern University as a full-time undergraduate student pursuing a BS in Computer Science and Business.
-        I have a passion for discovering new ways to effectively organize, display, and communicate information.
-        
-</p>
-Development, Database Administration, Project Management, Software Architecture. 
--->

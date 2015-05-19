@@ -10,7 +10,6 @@
                 <input class="subject subjectselect" value="Other" readonly>
                 <input class="subject" value="Business" readonly>
                 <input class="subject" value="Personal" readonly>
-                <!-- Hacky, but works for now! -->
                 <input id="subject" name="subject" value="Other" style="display:none">
             </div>
             <textarea class="textbox2" name="message" rows="5" cols="25" placeholder="Message"></textarea><br />
