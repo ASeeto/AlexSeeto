@@ -16,14 +16,3 @@
         <div class="wrap2"><img src="img/icons_ab3.png"></div>
     </div>
 </div>
-
-<!--
-<p>
-        My work has given me experience with full stack development, IT support, customer service, and quality assurance. I was born with an insatiable desire to learn paired with an  innate self determination and persistent work ethic. My hope in terms of career is for flexibility in order to continue branching out my knowledge in the many technical areas that  my discipline has to offer.
-</p>
-
-<p>Previous Employment</p>
-<p>Novartis, NaviNet, PHT Corporation, Northeastern University</p>
-
-
--->
