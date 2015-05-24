@@ -50,7 +50,7 @@ function showItems(item_type){
                 pops.append(mdct);
 
                 // Prepend Portofolio Item Div to #pf_items
-                $('#pf_pops').prepend(pops);
+                $('#pf_pops').append(pops);
 
                 // +------------------------------+
                 // |  Build Portfolio Item Divs   |
@@ -62,12 +62,12 @@ function showItems(item_type){
                             '></div>');
                 // Create Portfolio Label
                 var plbl = $('<div class="pf_label"><h2>'+obj.title+'</h2>'+
-                            '<p class="pf_shortdesc">'+obj.type+'</p>'+
+                            '<p class="pf_shortdesc">'+obj.year+' '+obj.type+'</p>'+
                             '</div>');
                 // Append Portfolio Label to Item Div
                 item.append(plbl);
                 // Prepend Portofolio Item Div to #pf_items
-                $('#pf_items').prepend(item);
+                $('#pf_items').append(item);
             });
 
             // OLAY!! Adding the overlay for Pop-ups to work
