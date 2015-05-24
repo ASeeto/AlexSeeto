@@ -6,9 +6,9 @@
     * Return data to build pop-ups and divs for portfolio items
     */
     if($item_type != "") {
-        $sql = "SELECT * FROM Portfolio_Items WHERE type = \"$item_type\" ORDER BY id desc";
+        $sql = "SELECT * FROM Portfolio_Items WHERE type = \"$item_type\" ORDER BY year asc";
     } else {
-        $sql = "SELECT * FROM Portfolio_Items ORDER BY id desc";
+        $sql = "SELECT * FROM Portfolio_Items ORDER BY year asc";
     }
     $result = mysqli_query($db,$sql);
     if (!$result) {
