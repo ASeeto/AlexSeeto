@@ -2,10 +2,6 @@
 - Web Portfolio for Alexander Seeto
 
 # Resources
-- Nifty Modal Window Effects
-- jquery.js
-
-# Resources
 ## Nifty Modal Window Effects
   Download Zip via:  
 	http://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/ 
