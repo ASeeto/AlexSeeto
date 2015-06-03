@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-h1, p, ul {
-  margin: 0;
-}
-
 body {
   font: 14px/2 Helvetica;
 }
@@ -15,6 +11,7 @@ section {
   padding: 40px 0;
   border-top: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
+  min-width: 800px;
   h1 {
     text-align: center;
     font-size: 25px;
@@ -22,7 +19,7 @@ section {
     padding-bottom: 3px;
     margin-bottom: 10px;
   }
-  &:nth-child(odd) {
+  &:nth-child(even) {
     background: #f6f6f6;
   }
 }
@@ -42,11 +39,9 @@ hr {
   margin: 0 auto;
 }
 
-/* HEADER, NAV, PAGE, FOOTER */
-
-#header {
+header {
   background: #1c6c7a;
-  width: 100%;
+  min-width: 800px;
   min-height: 100vh;
   .title {
     color: #fff;
@@ -55,18 +50,6 @@ hr {
   .subtitle {
     color: #fff;
     margin-top: -30px;
-  }
-  .icon {
-    padding: 0 5px;
-    margin-top: 10px;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    -ms-transition: -ms-transform .8s ease-in-out;
-    transition: transform .8s ease-in-out;
-    &:hover {
-      transform: rotate(-360deg);
-      -ms-transform: rotate(-360deg);
-      -webkit-transform: rotate(-360deg);
-    }
   }
 }
 
@@ -113,17 +96,24 @@ hr {
   margin: 0 auto;
 }
 
-#footer {
+footer {
   background-image: url(../img/bg.png);
-  width: 100%;
+  min-width: 800px;
   text-align: center;
   color: #fff;
   min-height: 300px;
-  .icon {
-    width: 35px;
-    height: 35px;
-    padding: 0 5px;
-    margin-top: 10px;
+}
+
+.icon {
+  padding: 0 5px;
+  margin-top: 10px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  &:hover {
+    transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
   }
 }
 
@@ -182,6 +172,12 @@ hr {
     text-align: center;
     font-size: 11px;
   }
+  &:hover {
+    position: relative;
+    top: -1px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #1c6c7a;
+  }
 }
 
 .wrap {
@@ -217,6 +213,12 @@ hr {
     }
     text-align: center;
     font-size: 11px;
+  }
+  &:hover {
+    position: relative;
+    top: -1px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #1c6c7a;
   }
 }
 
@@ -316,7 +318,8 @@ hr {
 .valignwrap {
   display: table;
   height: 100vh;
-  width: inherit;
+  min-width:800px;
+  width: 100%;
   position: absolute;
   overflow: hidden;
 }

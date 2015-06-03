@@ -4,7 +4,7 @@ function showItems(item_type){
     $('#pf_pops').empty();
     $.ajax({                                      
         type: 'GET',
-        url: 'Model_Portfolio.php',       
+        url: '../php/portfolio.php',       
         data: {'item_type':item_type},
         success: function(response)
         {

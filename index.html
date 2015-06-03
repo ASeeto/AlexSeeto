@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description=" content="Alexander Seeto Alex Seeto Portfolio Web Developer Software Engineer Graphic Designer">
+<title>Alexander Seeto</title>
+<link rel="icon" href="img/favicon.png" type="image/x-icon" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/component.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<a id="header">
+<header>
+    <div class="valignwrap"><div class="valign"><div class="valigncontent">
+        <h1 class="title">Alexander Seeto</h1>
+        <p class="subtitle">Web Developer, Software Engineer, Graphic Designer</p>
+        <hr></hr>
+            <a href="https://www.linkedin.com/in/alexanderseeto" target="_blank"><img src="img/linkedin.png" class="icon"></a>
+            <a href="https://github.com/ASeeto" target="_blank"><img src="img/git.png" class="icon"></a>
+            <a href="https://www.facebook.com/seeto.alex" target="_blank"><img src="img/facebook.png" class="icon"></a>
+            <a href="https://twitter.com/alexseeto" target="_blank"><img src="img/twitter.png" class="icon"></a>
+            <a href="http://www.pinterest.com/seetoalexander" target="_blank"><img src="img/pinterest.png" class="icon"></a>
+        <hr></hr>
+    </div></div></div>
+</header>
+
+<div id="page">
+    <p>
+        <a href="#foot" class="bottom"><img src="img/bottom.png"></a>
+        <a href="#header" class="top"><img src="img/top.png"></a>
+    </p>
+</div>
+
+<div id="nav" class="shadow-bottom">
+    <ul>
+    <li>
+        <a href="#header"><p>home</p></a>
+    </li>
+    <li>
+        <a href="#about"><p>about</p></a>
+    </li>
+    <li>
+        <a href="#experience"><p>experience</p></a>
+    </li>
+    <li>
+        <a href="#portfolio"><p>portfolio</p></a>
+    </li>
+    <li>
+        <a href="mailto:seeto.alexander@gmail.com"><p>contact</p></a>
+    </li>
+    </ul>
+</div>
+
+<section id="about">
+    <div id="container">
+
+    <h1>About</h1>
+    <div id="ab_items">
+        <div class="ab_item">
+            <img src="img/icons_ab1.png">
+            <h2>home</h2>
+            <p>My hometown is Randolph, MA, located just 15 miles south of Boston. I'm lucky to have grown up in such a diverse community.</p>
+        </div>
+        <div class="ab_item">
+            <img src="img/icons_ab2.png">
+            <h2>school</h2>
+            <p>Recent graduate from Northeastern University with a Bachelor of Science in Computer Science &amp; Business.</p>
+        </div>
+        <div class="ab_item">
+            <img src="img/icons_ab3.png">
+            <h2>work</h2>
+            <p>I possess an innate self determination and persistent work ethic that allows me to fully invest myself into my work. </p>
+        </div>
+        <div class="ab_item">
+            <img src="img/icons_ab4.png">
+            <h2>passion</h2>
+            <p>I have an insatiable desire to learn which pairs well with the ever-expanding nature of my discipline.</p>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+<section id="experience">
+    <div id="container">
+
+    <h1>Experience</h1>
+    <div id="xp_items">
+        <div class="xp_item">
+            <h2>Web Developer</h2>
+            <p>I began teaching myself HTML at a young age without even realizing it. I wanted to make the homepage of my Neopets guild more visually appealing. I sought out an HTML tutorial on my own. I fell in love with web development as I began to realize the limitless possibilities and tools available to me. I've since expanded my knowledge from front end development to full stack and have picked up many more languages.</p>
+            <div class="wrap"><img src="img/icons_xp1.png"></div>
+        </div>
+        <div class="xp_item">
+            <h2>Software Engineer</h2>
+            <p>I aspire to develop software that will make a difference in the world. My coursework at Northeastern University has set the foundation for my programming abilities along with books that I have chosen to read outside of the curriculum. My work experience with software development consists of web applications, server provisioning scripts, and maintenance of a developer environment setup script. </p>
+            <div class="wrap"><img src="img/icons_xp2.png"></div>
+        </div>
+        <div class="xp_item">
+            <h2>Graphic Designer</h2>
+            <p>I have created numerous graphics for marketing purposes whether it be flyers, banners, or logos. I served as an Executive Board member in two organizations at Northeastern University and took it upon myself to assist with their graphic design. I was ecstatic the first time one of my flyers was published and distributed around campus. Graphic design is another passion of mine that I would like to continue to refine.</p>
+            <div class="wrap"><img src="img/icons_xp3.png"></div>
+        </div>
+    </div>
+    <div class "wrap">
+        <div id="emps">
+            <a href="http://www.northeastern.edu/its/" target="_blank">
+            <div class="emp">
+                <img src="img/icons_emp0.png">
+                <h2>Northeastern</h2>
+                <p class="subtitle">Service Desk (IT Support)</p>
+            </div>
+            </a>
+            <a href="http://www.phtcorp.com/Home.aspx" target="_blank">
+            <div class="emp">
+                <img src="img/icons_emp1.png">
+                <h2>PHT Corporation</h2>
+                <p class="subtitle">Software Test Engineer</p>
+            </div>
+            </a>
+            <a href="http://www.navinet.net/" target="_blank">
+            <div class="emp">
+                <img src="img/icons_emp2.png">
+                <h2>NaviNet</h2>
+                <p class="subtitle">Software Engineer</p>
+            </div>
+            </a>
+            <a href="http://www.novartis.com/" target="_blank">
+            <div class="emp">
+                <img src="img/icons_emp3.png">
+                <h2>Novartis</h2>
+                <p class="subtitle">Full Stack Engineer</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+<section id="portfolio">
+    <div id="container">
+
+    <h1>Portfolio</h1>
+    <center>
+    <form>
+    <select name="items" onchange="showItems(this.value)">
+        <option value="" selected disabled>Select Type of Projects to Display</option>
+        <option value="">All</option>
+        <option value="Website">Website</option>
+        <option value="Flyer">Flyer</option>
+        </select>
+    </form>
+    </center>
+    <div id="pf_pops"></div>
+    <div id="pf_items"></div>
+
+    </div>
+</section>
+
+</div>
+
+<footer>
+    <a id="foot">
+    <br /><br /><br /><br />
+    <a href="https://www.linkedin.com/in/alexanderseeto" target="_blank"><img src="img/linkedin.png" class="icon"></a>
+    <a href="https://github.com/ASeeto" target="_blank"><img src="img/git.png" class="icon"></a>
+    <a href="https://www.facebook.com/seeto.alex" target="_blank"><img src="img/facebook.png" class="icon"></a>
+    <a href="https://twitter.com/alexseeto" target="_blank"><img src="img/twitter.png" class="icon"></a>
+    <a href="http://www.pinterest.com/seetoalexander" target="_blank"><img src="img/pinterest.png" class="icon"></a>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/init_experience.js"></script>
+<script src="js/init_portfolio.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/modalEffects.js"></script>
+
+</body>
+</html>

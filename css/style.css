@@ -2,23 +2,21 @@
   margin: 0;
   padding: 0; }
 
-h1, p, ul {
-  margin: 0; }
-
 body {
   font: 14px/2 Helvetica; }
 
 section {
   padding: 40px 0;
   border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3; }
+  border-bottom: 1px solid #d3d3d3;
+  min-width: 800px; }
   section h1 {
     text-align: center;
     font-size: 25px;
     border-bottom: 1px solid #d3d3d3;
     padding-bottom: 3px;
     margin-bottom: 10px; }
-  section:nth-child(odd) {
+  section:nth-child(even) {
     background: #f6f6f6; }
 
 a {
@@ -33,27 +31,16 @@ hr {
   background: #fff;
   margin: 0 auto; }
 
-/* HEADER, NAV, PAGE, FOOTER */
-#header {
+header {
   background: #1c6c7a;
-  width: 100%;
+  min-width: 800px;
   min-height: 100vh; }
-  #header .title {
+  header .title {
     color: #fff;
     font-size: 60px; }
-  #header .subtitle {
+  header .subtitle {
     color: #fff;
     margin-top: -30px; }
-  #header .icon {
-    padding: 0 5px;
-    margin-top: 10px;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    -ms-transition: -ms-transform .8s ease-in-out;
-    transition: transform .8s ease-in-out; }
-    #header .icon:hover {
-      transform: rotate(-360deg);
-      -ms-transform: rotate(-360deg);
-      -webkit-transform: rotate(-360deg); }
 
 #page {
   position: fixed;
@@ -90,17 +77,23 @@ hr {
   width: 800px;
   margin: 0 auto; }
 
-#footer {
+footer {
   background-image: url(../img/bg.png);
-  width: 100%;
+  min-width: 800px;
   text-align: center;
   color: #fff;
   min-height: 300px; }
-  #footer .icon {
-    width: 35px;
-    height: 35px;
-    padding: 0 5px;
-    margin-top: 10px; }
+
+.icon {
+  padding: 0 5px;
+  margin-top: 10px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out; }
+  .icon:hover {
+    transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg); }
 
 /* ABOUT */
 #ab_items {
@@ -147,6 +140,11 @@ hr {
   .xp_item p {
     text-align: center;
     font-size: 11px; }
+  .xp_item:hover {
+    position: relative;
+    top: -1px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #1c6c7a; }
 
 .wrap {
   z-index: 1;
@@ -176,6 +174,11 @@ hr {
     .emp p.subtitle {
       color: #1c6c7a;
       margin-top: -10px; }
+  .emp:hover {
+    position: relative;
+    top: -1px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #1c6c7a; }
 
 .wrap {
   z-index: 1;
@@ -258,7 +261,8 @@ hr {
 .valignwrap {
   display: table;
   height: 100vh;
-  width: inherit;
+  min-width: 800px;
+  width: 100%;
   position: absolute;
   overflow: hidden; }
 

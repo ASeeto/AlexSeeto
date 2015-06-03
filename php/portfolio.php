@@ -1,5 +1,5 @@
 <?php
-    require('dbconfig.php');
+    require('../lib/config.php');
     $db = connect_db();
     $item_type = $_GET['item_type'];
     /**
