@@ -53,9 +53,25 @@ function init() {
     } );
     
    /**
-    * Add event listener for Toolbar
+    * Add event listener for Toolbar for clicking "i" to hide information
     */
     [].slice.call( document.querySelectorAll( '.md-details' ) ).forEach( function( el, i ) {
+        el.addEventListener( 'click', function( ev ) {
+            var popBox = $(this).parent().parent();
+            var details = $(".details", popBox);
+            var shown = details.css("display") != "none";
+            if(shown){
+                details.fadeOut();
+            }else{
+                details.fadeIn();
+            }
+        });
+    });
+    
+   /**
+    * Add event listener for clicking content area to hide information
+    */
+    [].slice.call( document.querySelectorAll( '.md-content' ) ).forEach( function( el, i ) {
         el.addEventListener( 'click', function( ev ) {
             var popBox = $(this).parent().parent();
             var details = $(".details", popBox);
