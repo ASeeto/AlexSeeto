@@ -50,7 +50,7 @@ function init() {
             removeModalHandler();
         });
 
-    } );
+    });
     
    /**
     * Add event listener for Toolbar for clicking "i" to hide information
@@ -83,5 +83,5 @@ function init() {
             }
         });
     });
-}
+};
 

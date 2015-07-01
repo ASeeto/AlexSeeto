@@ -60,7 +60,7 @@
         <div class="ab_item">
             <img src="img/icons_ab1.png">
             <h2>home</h2>
-            <p>My hometown is Randolph, MA, located just 15 miles south of Boston. I'm lucky to have grown up in such a diverse community.</p>
+            <p>My hometown is Randolph, MA, a diverse community located just 15 miles south of Boston. I'm considered a Dolphin.</p>
         </div>
         <div class="ab_item">
             <img src="img/icons_ab2.png">
@@ -70,12 +70,12 @@
         <div class="ab_item">
             <img src="img/icons_ab3.png">
             <h2>work</h2>
-            <p>I possess an innate self determination and persistent work ethic that allows me to fully invest myself into my work. </p>
+            <p>Expect nothing less than my full investment. My colleagues can vouch for my commitment, determination, and work ethic.</p>
         </div>
         <div class="ab_item">
             <img src="img/icons_ab4.png">
             <h2>passion</h2>
-            <p>I have an insatiable desire to learn which pairs well with the ever-expanding nature of my discipline.</p>
+            <p>Programming is an opportunity for me to build something impactful. My passion to create is what drives my learning.</p>
         </div>
     </div>
 
@@ -89,17 +89,17 @@
     <div id="xp_items">
         <div class="xp_item">
             <h2>Web Developer</h2>
-            <p>I began teaching myself HTML at a young age without even realizing it. I wanted to make the homepage of my Neopets guild more visually appealing. I sought out an HTML tutorial on my own. I fell in love with web development as I began to realize the limitless possibilities and tools available to me. I've since expanded my knowledge from front end development to full stack and have picked up many more languages.</p>
+            <p>Web development has been a passion of mine for as long as I can remember. I love being able to create, design, and contribute to useful applications that are easy for others to understand as well as visually appealing. I started out learning mostly front end, but have been developing closer towards the full stack. I've worked on various projects for school and work and have some independent projects of my own. You can find them listed using the 'Website' filter in the portfolio section of this site and check out their respective source codes on my GitHub!</p>
             <div class="wrap"><img src="img/icons_xp1.png"></div>
         </div>
         <div class="xp_item">
             <h2>Software Engineer</h2>
-            <p>I aspire to develop software that will make a difference in the world. My coursework at Northeastern University has set the foundation for my programming abilities along with books that I have chosen to read outside of the curriculum. My work experience with software development consists of web applications, server provisioning scripts, and maintenance of a developer environment setup script. </p>
+            <p>I aspire to develop software that will make a difference in the world. My coursework at Northeastern University has set most of my programming foundation, but I've had help from books, videos, and sites that I've studied outside of my curriculum. My experiences have exposed me to working with HTML, CSS (SASS / Bootstrap), and JavaScript (jQuery) on the frontend with frameworks like Angular and Backbone, some middle tier work with Java and PHP (Slim Framework v2), and some scripting with Python and SQL.</p>
             <div class="wrap"><img src="img/icons_xp2.png"></div>
         </div>
         <div class="xp_item">
             <h2>Graphic Designer</h2>
-            <p>I have created numerous graphics for marketing purposes whether it be flyers, banners, or logos. I served as an Executive Board member in two organizations at Northeastern University and took it upon myself to assist with their graphic design. I was ecstatic the first time one of my flyers was published and distributed around campus. Graphic design is another passion of mine that I would like to continue to refine.</p>
+            <p>I used to mess around on MS Paint, but Adobe Photoshop was what really what opened doors to another passion of mine. I started making small animations and clips independently. At Northeastern I ended up doing some graphic design for a couple of organizations that I was heavily involved in. I mostly created general marketing materials like flyers, banners, and logos. Graphic design is another creative outlet for me and I liked being able to contribute to my organizations while at the same time learning, practicing, and refining new skills.</p>
             <div class="wrap"><img src="img/icons_xp3.png"></div>
         </div>
     </div>
@@ -141,21 +141,16 @@
 
 <section id="portfolio">
     <div id="container">
-
-    <h1>Portfolio</h1>
-    <center>
-    <form>
-    <select name="items" onchange="showItems(this.value)">
-        <option value="" selected disabled>Select Type of Projects to Display</option>
-        <option value="">All</option>
-        <option value="Website">Website</option>
-        <option value="Flyer">Flyer</option>
-        </select>
-    </form>
-    </center>
-    <div id="pf_pops"></div>
-    <div id="pf_items"></div>
-
+        <h1>Portfolio</h1>
+        <center>
+        <ul id="filterOptions">
+            <li class="active"><a href="#" class="all">All</a></li>
+            <li class=""><a href="#" class="Website">Website</a></li>
+            <li class=""><a href="#" class="Flyer">Flyer</a></li>
+        </ul>
+        <ul class="portfolio"></ul>
+        <div id="pf_pops"></div>
+        </center>
     </div>
 </section>
 
@@ -177,6 +172,8 @@
 <script src="js/init_portfolio.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/modalEffects.js"></script>
+<script src="js/jquery.quicksand.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
 
 </body>
 </html>

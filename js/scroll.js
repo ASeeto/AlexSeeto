@@ -1,6 +1,7 @@
-// CSS-Tricks
-// http://css-tricks.com/snippets/jquery/smooth-scrolling/
-
+/** 
+    Thanks CSS-Tricks! 
+    http://css-tricks.com/snippets/jquery/smooth-scrolling/ 
+*/
 $(function() {
     /** Performs a smooth page scroll to an anchor on the same page. */
     $('a[href*=#]:not([href=#])').click(function() {
@@ -11,7 +12,7 @@ $(function() {
             if (target.length) {
                 if(target.selector != "#top"){
                     $('html,body').animate({
-                        scrollTop: target.offset().top-$('#nav').height()
+                        scrollTop: target.offset().top-$('nav').height()
                     }, 1000);
                     return false;
                 }else{
@@ -21,16 +22,6 @@ $(function() {
                     return false;
                 }
             }
-        }
-    });
-    
-        /** Shows graphics for navigation to top or bottom of page. */
-    $(document).on('scroll', function(){
-        var currentPos = $('body').scrollTop();
-        if(currentPos != 0 && currentPos != $(document).height()-$(window).height()){
-            $('#page').fadeIn('slow');
-        }else{
-            $('#page').hide();
         }
     });
 });
