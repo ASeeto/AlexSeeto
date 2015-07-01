@@ -20,6 +20,26 @@ html,body{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.navbar-inverse{
+	.navbar-brand{
+		color: #fff;
+		&:hover{
+			color: $headerbg;
+		}
+	}
+	.navbar-nav{ 
+		li{
+			a{
+				color: #fff;
+				&:hover{
+					color: $headerbg;
+				}
+			}
+		}
+	}
+}
+
+
 header{
 	text-align: center;
 	color: $white;
@@ -147,6 +167,7 @@ section{
 				float: left;
 				padding-left: 0;
 				padding-right: 0;
+				cursor: pointer;
 				div.pf_item{
 					background-size: cover;
 					background-position: center;
@@ -162,9 +183,13 @@ section{
 						-moz-transition: opacity 0.5s ease-in-out;
 						-webkit-transition: opacity 0.5s ease-in-out;
 						h2{
-							font-size: 16px;
+							font-size: 20px;
 							color: $white;
 							margin-top: 70px;
+						}
+						p{
+							font-weight: bold;
+							color: $white;
 						}
 						&:hover{
 						    opacity: 1;
@@ -285,16 +310,3 @@ footer{
 		font-size: 4vw !important;
 	}
 }
-
-
-/*.toolbar{position:fixed;top:0;left:0;height:30px;width:100%;border-bottom:1px solid #000;background-color:#fff}
-.md-close, .md-details {
-    display: block;
-    margin: 0 auto;
-    position:fixed;
-    width:30px;
-    height:30px;
-}
-
-.md-close{top:0;right:0;background-image:url(../img/close.png)}
-.md-details{top:0;right:30px;background-image:url(../img/details.png)}*/

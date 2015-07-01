@@ -8,6 +8,15 @@ html, body {
   color: #000000;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+.navbar-inverse .navbar-brand {
+  color: #fff; }
+  .navbar-inverse .navbar-brand:hover {
+    color: #1C6C7A; }
+.navbar-inverse .navbar-nav li a {
+  color: #fff; }
+  .navbar-inverse .navbar-nav li a:hover {
+    color: #1C6C7A; }
+
 header {
   text-align: center;
   color: #FFFFFF;
@@ -95,7 +104,8 @@ section {
     section#portfolio ul.portfolio li.item {
       float: left;
       padding-left: 0;
-      padding-right: 0; }
+      padding-right: 0;
+      cursor: pointer; }
       section#portfolio ul.portfolio li.item div.pf_item {
         background-size: cover;
         background-position: center;
@@ -111,9 +121,12 @@ section {
           -moz-transition: opacity 0.5s ease-in-out;
           -webkit-transition: opacity 0.5s ease-in-out; }
           section#portfolio ul.portfolio li.item div.pf_item div.pf_label h2 {
-            font-size: 16px;
+            font-size: 20px;
             color: #FFFFFF;
             margin-top: 70px; }
+          section#portfolio ul.portfolio li.item div.pf_item div.pf_label p {
+            font-weight: bold;
+            color: #FFFFFF; }
           section#portfolio ul.portfolio li.item div.pf_item div.pf_label:hover {
             opacity: 1;
             transition: opacity 0.3s ease-in-out;
@@ -192,16 +205,5 @@ footer {
 @media (max-width: 512px) {
   body {
     font-size: 4vw !important; } }
-/*.toolbar{position:fixed;top:0;left:0;height:30px;width:100%;border-bottom:1px solid #000;background-color:#fff}
-.md-close, .md-details {
-    display: block;
-    margin: 0 auto;
-    position:fixed;
-    width:30px;
-    height:30px;
-}
-
-.md-close{top:0;right:0;background-image:url(../img/close.png)}
-.md-details{top:0;right:30px;background-image:url(../img/details.png)}*/
 
 /*# sourceMappingURL=style.css.map */
