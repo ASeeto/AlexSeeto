@@ -1,0 +1,22 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+app/api/vendor/*
+app/api/composer.lock
+app/css/.sass-cache/*
+app/js/lib/*
+node_modules/*
+dist/*
