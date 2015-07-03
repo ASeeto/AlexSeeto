@@ -9,6 +9,11 @@ Download the repo
 git clone https://github.com/ASeeto/AlexSeeto.git
 ```
 
+Install server dependencies using Composer  
+```
+cd AlexSeeto/app/api && php composer.phar install && php composer.phar update
+```
+
 Download NodeJS  
 ```
 https://nodejs.org/
@@ -19,7 +24,7 @@ Install Bower (node_modules to project directory)
 sudo npm install -g bower
 ```
 
-Install Dependencies via Bower 
+Install client dependencies using Bower 
 ```
 cd Alexseeto/ && bower install
 ```
