@@ -7,6 +7,7 @@ define(['jquery',
         'views/ExperienceView',
         'views/EmploymentView',
         'views/ProjectsView',
+        'views/ContactView',
         'views/FooterView'], 
     function($, _, 
                 Backbone, 
@@ -16,6 +17,7 @@ define(['jquery',
                 ExperienceView, 
                 EmploymentView,
                 ProjectsView,
+                ContactView,
                 FooterView){
         var AppRouter = Backbone.Router.extend({
             routes: {}
@@ -47,6 +49,10 @@ define(['jquery',
             /** Build Projects Section */ 
             var projectsView = new ProjectsView();
             projectsView.render();
+
+            /** Build Contact Section */ 
+            var contactView = new ContactView();
+            contactView.render();
             
             /** Build Footer */ 
             var footerView = new FooterView();

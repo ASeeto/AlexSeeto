@@ -20,11 +20,37 @@ html,body{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+a{
+	&:focus{
+		text-decoration: none;
+	}
+	&:hover{
+		text-decoration: none;
+	}
+}
+
 .navbar-inverse{
+	-webkit-box-shadow: 0 8px 20px -6px #222;
+  -moz-box-shadow: 0 8px 20px -6px #222;
+  box-shadow: 0 8px 20px -6px #222;
 	.navbar-brand{
-		color: #fff;
+		color: rgba(153,153,153,.8);
+	  font-size: 22px;
+	  font-weight: 100;
+		span{
+			color: rgba(28,108,122,.8);
+		}
 		&:hover{
-			color: $headerbg;
+			color: rgba(153,153,153,1);
+			span{
+				color: rgba(28,108,122,1);
+			}
+		}
+		&:focus{
+			color: rgba(153,153,153,.8);
+			span{
+				color: rgba(28,108,122,.8);
+			}
 		}
 	}
 	.navbar-nav{ 
@@ -38,7 +64,6 @@ html,body{
 		}
 	}
 }
-
 
 header{
 	text-align: center;
@@ -126,6 +151,9 @@ section{
 		.employment{
 			div{
 				padding: 20px;
+				h3{
+					font-size: 20px;
+				}
 				&:hover {
 					background: $headerbg;
 					color: $white;
@@ -244,6 +272,25 @@ section{
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+	&#contact{
+		a{
+			color:#000;
+			div{
+				padding-bottom: 3px;
+				margin-bottom: 10px;
+				i{
+					color: $headerbg;
+				}
+				&:hover {
+					padding-bottom: 0;
+					position: relative;
+					top: -1px;
+					margin-bottom: 10px;
+					border-bottom: 3px solid $headerbg;
 				}
 			}
 		}

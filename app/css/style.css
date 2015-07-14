@@ -8,14 +8,33 @@ html, body {
   color: #000000;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-.navbar-inverse .navbar-brand {
-  color: #fff; }
-  .navbar-inverse .navbar-brand:hover {
-    color: #1C6C7A; }
-.navbar-inverse .navbar-nav li a {
-  color: #fff; }
-  .navbar-inverse .navbar-nav li a:hover {
-    color: #1C6C7A; }
+a:focus {
+  text-decoration: none; }
+a:hover {
+  text-decoration: none; }
+
+.navbar-inverse {
+  -webkit-box-shadow: 0 8px 20px -6px #222;
+  -moz-box-shadow: 0 8px 20px -6px #222;
+  box-shadow: 0 8px 20px -6px #222; }
+  .navbar-inverse .navbar-brand {
+    color: rgba(153, 153, 153, 0.8);
+    font-size: 22px;
+    font-weight: 100; }
+    .navbar-inverse .navbar-brand span {
+      color: rgba(28, 108, 122, 0.8); }
+    .navbar-inverse .navbar-brand:hover {
+      color: #999999; }
+      .navbar-inverse .navbar-brand:hover span {
+        color: #1c6c7a; }
+    .navbar-inverse .navbar-brand:focus {
+      color: rgba(153, 153, 153, 0.8); }
+      .navbar-inverse .navbar-brand:focus span {
+        color: rgba(28, 108, 122, 0.8); }
+  .navbar-inverse .navbar-nav li a {
+    color: #fff; }
+    .navbar-inverse .navbar-nav li a:hover {
+      color: #1C6C7A; }
 
 header {
   text-align: center;
@@ -75,6 +94,8 @@ section {
       /* TODO: something... */ }
   section#employment .employment div {
     padding: 20px; }
+    section#employment .employment div h3 {
+      font-size: 20px; }
     section#employment .employment div:hover {
       background: #1C6C7A;
       color: #FFFFFF; }
@@ -168,6 +189,19 @@ section {
           text-align: left; }
           section#portfolio #popboxes .md-modal .md-content div.details p span {
             font-weight: bold; }
+  section#contact a {
+    color: #000; }
+    section#contact a div {
+      padding-bottom: 3px;
+      margin-bottom: 10px; }
+      section#contact a div i {
+        color: #1C6C7A; }
+      section#contact a div:hover {
+        padding-bottom: 0;
+        position: relative;
+        top: -1px;
+        margin-bottom: 10px;
+        border-bottom: 3px solid #1C6C7A; }
 
 footer {
   text-align: center;

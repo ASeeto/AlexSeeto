@@ -1,6 +1,6 @@
 # AlexSeeto.com
 
-This site serves as a web portfolio displaying all projects that I have been involved in and/or that I am currently working on. You will also find more information about me including my ambitions and interests. Please feel free to check it out and contact me for any work, comments, or questions. COMING SOON (EVENTUALLY): Personal Blog.
+This site serves as a web portfolio displaying all projects that I have been involved in and/or that I am currently working on. You will also find more information about me including my ambitions, interests, and a link to my personal blog. Please feel free to check it out and contact me for any work, comments, or questions.
 
 ## Initial Setup
 
