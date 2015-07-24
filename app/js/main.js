@@ -4,10 +4,12 @@ require.config({
         underscore:     'lib/underscore-amd/underscore',
         backbone:       'lib/backbone-amd/backbone',
         bootstrap:      'lib/bootstrap/dist/js/bootstrap',
-        templates:      '../templates'
+        templates:      '../templates',
+        lightbox:       'lib/ekko-lightbox.min'
     },
     shim : {
-        'bootstrap'     : { "deps" :['jquery'] }
+        'bootstrap' : { "deps" :['jquery'] },
+        'lightbox' : { "deps" :['jquery', 'bootstrap']}
     }
 });
 

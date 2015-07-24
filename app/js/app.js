@@ -2,7 +2,8 @@ define(['jquery',
 		'underscore',
 		'backbone',
 		'router',
-		'bootstrap'
+		'bootstrap',
+		'lightbox'
 		], 
     function($, _, Backbone, Router){
         var initialize = function(){

@@ -5,9 +5,8 @@ define([
   'models/ProjectModel',
   'collections/ProjectsCollection',
   'views/ProjectsListView',
-  'views/ProjectsPopBoxView',
   'text!templates/projectsTemplate.html'
-], function($, _, Backbone, ProjectModel, ProjectsCollection, ProjectsListView, ProjectsPopBoxView, projectsTemplate){
+], function($, _, Backbone, ProjectModel, ProjectsCollection, ProjectsListView, projectsTemplate){
 
   var ProjectsView = Backbone.View.extend({
     el: $("#content"),
@@ -26,9 +25,7 @@ define([
           success:function (data) {
               var projectsCollection = new ProjectsCollection(data);
               var projectsListView = new ProjectsListView({ collection: projectsCollection}); 
-              projectsListView.render(); 
-              var projectsPopBoxView = new ProjectsPopBoxView({ collection: projectsCollection});
-              projectsPopBoxView.render(); 
+              projectsListView.render();
               that.$filterType = $('#filterOptions li.active a').attr('class');
               that.$data = $('ul.portfolio');
           }
@@ -36,32 +33,7 @@ define([
     },
     
     events: {
-      "click #filterOptions li a":"filter",
-      "click .item":"openmodal",
-      "click .md-overlay":"closemodal",
-      "click .gallery":"toggleinfo",
-      "click .md-details":"toggleinfo",
-      "click .md-close":"closemodal"
-    },
-
-    openmodal: function(event){
-      modal = $('#'+$(event.currentTarget).children().attr('data-modal'));
-      $('.md-overlay').show();
-      modal.addClass('md-show');
-    },
-
-    closemodal: function(){
-      $('.md-show').removeClass('md-show');
-      $('.md-overlay').hide();
-    },
-
-    toggleinfo: function(event){
-      clicked = $(event.currentTarget)
-      if(clicked.is('img')){
-        $('.details', clicked.parent()).fadeToggle('fast');
-      } else {
-        $('.details', clicked.parent().parent()).fadeToggle('fast');
-      }
+      "click #filterOptions li a":"filter"
     },
 
     filter: function(event){
