@@ -118,7 +118,10 @@ section {
         content: '';
         height: 400px;
         display: block;
-        background: url('../img/bg2.jpg') no-repeat fixed center center;
+        background: url('../img/bg2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
         background-size: cover;
     }
     .col-md-8 {
@@ -147,6 +150,10 @@ section {
 #experience {
     .col-md-8 {
         .experience {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
             margin: 50px 0;
             .experience-icon {
@@ -179,7 +186,10 @@ section {
         content: '';
         height: 400px;
         display: block;
-        background: url('../img/bg3.jpg') no-repeat fixed center center;
+        background: url('../img/bg3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
         background-size: cover;
     }
     .col-md-8 {
@@ -202,7 +212,10 @@ section {
         content: '';
         height: 400px;
         display: block;
-        background: url("../img/bg4.png") no-repeat fixed center center;
+        background: url('../img/bg4.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
         background-size: cover;
     }
     #filterOptions {
@@ -305,6 +318,12 @@ footer {
     }
 }
 
+@media screen and (max-device-width: 1024px){
+    #about:after, #employment:after, #portfolio:after {
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 992px){
     #experience {
         .col-md-8 {
@@ -348,5 +367,8 @@ footer {
     }
     .md-content {
         margin: 80px 20px 20px;
+    }
+    #about:after,#employment:after,#portfolio:after {
+        background-position: relative;
     }
 }
